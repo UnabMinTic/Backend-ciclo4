@@ -1,0 +1,21 @@
+{
+  "name": "backend-alquilerbarcos",
+  "version": "1.0.0",
+  "description": "API REST del proyecto Alquiler de Barcos",
+  "main": "index.js",
+  "repository": "https://github.com/UnabMinTic/Backend-ciclo4.git",
+  "author": "Franklim Arboleda <franklim.arboleda@o365.unab.edu.co>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb": "^4.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
